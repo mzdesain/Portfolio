@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 30px;
+    padding: 5px 30px;
     background: linear-gradient(45deg, #7F00FF, #4e9af1);
     color: white;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
@@ -417,6 +417,7 @@
 }
 
 .card-content p {
+    padding: 10px 15px;
     font-size: 0.9em;
     color: #666;
     margin-bottom: 15px;
