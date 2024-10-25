@@ -502,14 +502,14 @@
 }
 
 .message-us h3 {
-    padding-left: 15px;
-    text-align: center;
+    padding-left: 5px;
+    text-align: left;
     color:  #4e9af1;
 }
 
 .message-us p {
-    padding-left: 15px;
-    text-align: center;
+    padding-left: 5px;
+    text-align: left;
     color: #333;
 }
 
@@ -535,7 +535,7 @@ form label {
 }
 
 .gender-container select {
-    padding: 10px;
+    padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1em;
