@@ -486,7 +486,7 @@
 /* Contact Section */
 .message-us {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     text-align: left;
     width: 100%;
     max-width: 1250px;
@@ -563,6 +563,15 @@ form button {
 form button:hover {
     background-color: #7F00FF;
 }
+
+/* Untuk tampilan mobile */
+@media (max-width: 768px) {
+    .message-us {
+        padding: 20px;
+        margin: 0 20px; /* Tambahkan jarak di kiri dan kanan */
+    }
+}
+
 
 .footer-rights {
     color: #0a0a0a;
